@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"><![endif]-->
+	<meta name="description" content="">
+	<meta name="author" content="iglyphic">
+	<link rel="shortcut icon" href="src/assets/images/favicon.png">
+	<title> SVU College of CM & CS</title>
+	<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+	<!-- Mobile Specific Meta
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="/src/assets/css/style.css">
+	<link rel="stylesheet" href="/src/assets/css/responsive.css">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+
+</head>
+
+<body>
+
+
+	<div class="boxed_wrapper">
+
+
+		<!-- Start header top -->
+		<header class="main-header">
+			<div class="header-top">
+				<div class="container">
+					<!--Top Left-->
+					<div class="top-left pull-left">
+						<ul class="links-nav clearfix">
+							<li><a href="#"></a></li>
+						</ul>
+					</div>
+
+					<!--Top Right-->
+					<div class="top-right pull-right">
+						<ul class="links-nav clearfix">
+							<li><a routerLink="students">Students</a></li>
+							<li><a routerLink="events">Events</a></li>
+							<li><a routerLink="alumni">Alumni</a></li>
+							<li><a routerLink="contactus">Contact Us</a></li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-upper">
+				<div class="container">
+					<div class="clearfix">
+
+						<div class="pull-left logo-outer">
+							<div class="logo">
+								<a routerLink="/home"><img src="/src/assets/images/logo/logo.png" height="40%" width="20%" alt=""
+										title="SVU"></a>
+								<h1 style="margin-top: -90px;margin-left: 400px;">SVU College of CM & CS</h1>
+								<h3 style="margin-top: 20px;margin-left: 550px;">Tirupati</h3>
+
+							</div>
+						</div>
+
+						<div class=" clearfix">
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End header top -->
+
+		<!-- Start nav menu -->
+		<section class="mainmenu-wrapper stricky">
+			<div class="container">
+				<nav class="mainmenu-holder pull-left">
+					<div class="nav-header">
+						<ul class="navigation">
+							<li><a routerLink="/home">Home</a></li>
+							<li class="dropdown">
+								<a routerLink="#">About Us</a>
+								<ul class="submenu">
+									<li><a routerLink="index">The College</a></li>
+									<li><a routerLink="principaldesk">From Principal's Desk</a></li>
+									<li><a routerLink="governingbody">Governing Body</a></li>
+									<li><a routerLink="hrpolicies">HR Policies</a></li>
+
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#">Departments</a>
+								<ul class="submenu">
+									<li><a routerLink="mca">MCA</a></li>
+									<li><a routerLink="mba">MBA</a></li>
+									<li><a routerLink="msc">MSC</a></li>
+									<li><a routerLink="mcom">MCOM</a></li>
+								</ul>
+							</li>
+							<li><a  routerLink="research">Research</a></li>
+							<li><a routerLink="facilities">Facilities</a></li>
+							<li class="dropdown">
+								<a href="#">Placements</a>
+								<!-- <ul class="submenu">
+									<li><a href="placements/index.html">Overview</a></li>
+									<li><a href="placements/companies-visited.html">Companies Visited</a></li>
+									<li><a href="placements/Placements-2019-20.html">Placements</a></li>
+									<li><a href="placements/current-placements.html">Current Placements</a></li>
+
+								</ul>
+							</li> -->
+							<li class="dropdown">
+								<a routerLink="#">Exams</a>
+								<!-- <ul class="submenu">
+									<li><a href="exams/ayllabus-regulations.html">Syllabus &amp; Regulations</a></li>
+									<li><a href="exams/academic-calendar.html">Academic Calendar</a></li>
+									<li><a href="exams/results.html">Results</a></li>
+									<li><a href="exams/exam-schedule.html">Exam Schedule (Final Exams)</a></li>
+									<li><a href="exams/exams-schedule1.html">Exam Schedule (Quiz & Mid Exams)</a></li>
+									<li><a href="exams/previous-exam-papers.html">Previous Exam Papers</a></li>
+
+								</ul> -->
+							</li>
+							<li><a routerLink="curricular">Co-Curricular</a></li>
+
+						</ul>
+					</div>
+					<div class="nav-footer hidden-lg">
+						<ul>
+							<li><button class="menu-expander"><i class="fa fa-list-ul"></i></button></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="get-appt pull-right">
+					<a routerLink="/login" class="appt-btn theme-btn">Login</a>
+				</div>
+
+			</div>
+		</section>
+		<!-- End nav menu --><div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/src/assets/images/slider/1.jpg" alt="Los Angeles" >
+      <div class="carousel-caption">
+        <h3>Admin Buliding</h3>
+        <p>Sri Venkateswara University</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="/src/assets/images/slider/1.png" alt="Chicago" >
+      <div class="carousel-caption">
+        <h3>University Library</h3>
+        <p>Sri Venkateswara University</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="/src/assets/images/slider/2.jpg" alt="New York" >
+      <div class="carousel-caption">
+        <h3>Srinivasa auditorium</h3>
+        <p>Sri Venkateswara University</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+		<div class="latestnews">
+			<div class="container">
+				<marquee scrollamount="5" direction="side" loop="true" onMouseOver="this.stop();"
+					onMouseOut="this.start();" height="45">
+					<strong><a class="two" href="#" target="_blank"><img src="/src/assets/images/new.gif" alt=""> JOB MELA
+							ORGANIZING on 31th October ,2019 Participating
+							Companies List<u> click here</u></a></strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a
+							class="two" href="/src/assets/files/jobmela.xlsx" target="_blank"><img src="/src/assets/images/new.gif" alt="">
+							APSSDC &amp; SVU College of CM & CS JOINTLY ORGANIZING JOB MELA
+							on 4th NOVEMBER,2019 Participating Companies List<u> click here</u></a></strong>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&gt;<a href="#" target="_blank">FOR REGISTRATION<u>
+								click here</u></a></strong>
+				</marquee>
+			</div>
+		</div>
+
+		<section class="our-services">
+			<div class="container">
+				<div class="section-title">
+					<div class="row">
+						<div class="col-md-4 col-sm-5 col-xs-12">
+							<div class="title-section text-left">
+								<p>Welcome to</p>
+								<h2>SVU College of CM & CS</h2>
+							</div>
+						</div>
+						<div class="col-md-8 col-sm-7 col-xs-12 font-20">
+							<p>Sri Venkateswara University (commonly referred to as S. V. University or SVU) is a state
+								university in Tirupati, Andhra Pradesh, India. It was founded in 1954 by chief minister
+								Tanguturi Prakasam Pantulu. The first vice-chancellor was S Govindarajulu Naidu. The
+								university is named after Lord Venkateswara whose shrine is located in the city. It
+								holds a NAAC rating of "A+" with a score of 3.52 out of 4.[citation needed] It was the
+								31st university to be built in India, and after the Andhra Pradesh Reorganisation Act,
+								2014 it is the second oldest university in Andhra Pradesh, after Andhra University.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="single-our-service">
+							<figure class="img-box">
+								<a href="#"><img src="/src/assets/images/service/01.jpg" alt="Awesome Image" /></a>
+							</figure>
+							<a href="#">
+								<h4>News &amp; Events</h4>
+							</a>
+							<ul>
+								<li><strong><a href="#" target="_blank">Events list</a></strong>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-our-service">
+							<figure class="img-box">
+								<a href="#"><img src="/src/assets/images/service/02.jpg" alt="Awesome Image" /></a>
+							</figure>
+							<a href="#">
+								<h4>Principal's Desk</h4>
+							</a>
+							<p>In today’s information age, a complete revision of current education policies &
+								principles is required if organizations are to continue to thrive – especially as
+								technology is moving at ever increasing pace.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-our-service">
+							<figure class="img-box">
+								<a href="#"><img src="/src/assets/images/service/03.jpg" alt="Awesome Image" /></a>
+							</figure>
+							<a href="#">
+								<h4>Announcement</h4>
+							</a>
+							<p><strong>All the MCA students who have passed in April 2018 has to collect their
+									Provisional Certificate and Consolidated Marks Memo from the College Examination
+									Branch from 31 October 2019 onwards.</strong> </p>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="image-bg-wrapper counting-wrapper"
+			style="background-image:url('/src/assets/images/about-us-image-bg.jpg');">
+
+			<div class="container mt-15">
+
+				<div class="row">
+
+					<div class="col-md-10 col-md-offset-1">
+
+						<div class="row">
+
+							<div class="col-xs-6 col-sm-6 col-md-3">
+
+								<div class="counting-item">
+
+									<div class="counting-number h1"><span class="counter" data-decimal-delimiter=","
+											data-thousand-delimiter="," data-value="300"></span></div>
+
+									Placements
+
+								</div>
+
+							</div>
+
+							<div class="col-xs-6 col-sm-6 col-md-3">
+
+								<div class="counting-item">
+
+									<div class="counting-number h1"><span class="counter" data-decimal-delimiter=","
+											data-thousand-delimiter="," data-value="112"></span></div>
+
+									Staffs
+
+								</div>
+
+							</div>
+
+							<div class="col-xs-6 col-sm-6 col-md-3">
+
+								<div class="counting-item">
+
+									<div class="counting-number h1"><span class="counter" data-decimal-delimiter=","
+											data-thousand-delimiter="," data-value="5500"></span></div>
+
+									Books
+
+								</div>
+
+							</div>
+
+							<div class="col-xs-6 col-sm-6 col-md-3">
+
+								<div class="counting-item">
+
+									<div class="counting-number h1"><span class="counter" data-decimal-delimiter=","
+											data-thousand-delimiter="," data-value="28"></span></div>
+
+									Years of experience
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+
+		<section class="testimonials-section">
+			<div class="container">
+				<div class="section-title">
+					<div class="row">
+						<div class="col-md-4 col-sm-5 col-xs-12">
+							<div class="title-section text-left">
+								<p>Best Placement Record</p>
+								<h2>100% Placements</h2>
+							</div>
+						</div>
+						<div class="col-md-8 col-sm-7 col-xs-12 font-20">
+							<p>This is the leading motto of the Training and Placement Facility of SVU.</p>
+						</div>
+					</div>
+				</div>
+
+
+
+
+			</div>
+
+	</section>
+
+
+
+
+	<section class="clients-section">
+		<div class="container">
+			<div class="client-carousel owl-carousel owl-theme">
+				<div class="item">
+					<img src="/src/assets/images/clients/1.png" alt="Insurance Image" />
+				</div>
+				<div class="item">
+					<img src="/src/assets/images/clients/2.png" alt="Insurance Image" />
+				</div>
+				<div class="item">
+					<img src="/src/assets/images/clients/3.png" alt="Insurance Image" />
+				</div>
+				<div class="item">
+					<img src="/src/assets/images/clients/4.png" alt="Insurance Image" />
+				</div>
+				<div class="item">
+					<img src="/src/assets/images/clients/5.png" alt="Insurance Image" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer top -->
+	<footer class="footer has-black-color-overlay has-dark-texture">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="footer-widget about-widget">
+						<a href="index.html"><img src="/src/assets/images/logo/logo.png" height="30%" width="30%"
+								style="margin-left: 80px;"></a>
+						<p>Sri Venkateswara University (commonly referred to as S. V. University or SVU) is a state
+							university in Tirupati, Andhra Pradesh, India. It was founded in 1954 by chief minister
+							Tanguturi Prakasam Pantulu. The first vice-chancellor was S Govindarajulu Naidu. The
+							university is named after Lord Venkateswara whose shrine is located in the city. </p>
+						<ul class="list-inline social">
+							<li>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+							</li>
+							<!-- comment for inline hack
+                    -->
+							<li>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+							</li>
+							<!-- comment for inline hack
+                    -->
+							<li>
+								<a href="#"><i class="fa fa-skype"></i></a>
+							</li>
+							<!-- comment for inline hack
+                    -->
+							<li>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.footer-widget about-widget -->
+				</div>
+				<!-- /.col-md-3 -->
+
+
+				<div class="col-md-3">
+					<div class="footer-widget contact-widget">
+						<div class="inner-title">
+							<h3>Contact Details</h3>
+							<span class="decor-line"></span>
+						</div>
+						<!-- /.sec-title-two -->
+						<div class="footer-contact-info-carousel">
+							<div class="item">
+								<ul class="contact-infos">
+									<li>
+										<div class="icon-box">
+											<i class="icon-geography"></i>
+										</div>
+										<!-- /.icon-box -->
+										<div class="text-box">
+											<p>Sri Venkateswara University,Tirupati
+												Chittor(Dist)- 517502,
+												Andhra Pradesh, India.</p>
+										</div>
+										<!-- /.text-box -->
+									</li>
+									<li>
+										<div class="icon-box">
+											<i class="icon-technology-1"></i>
+										</div>
+										<!-- /.icon-box -->
+										<div class="text-box">
+											<p>+ +91 - 00000 - 222222 <br> info@svu.edu.in</p>
+										</div>
+										<!-- /.text-box -->
+									</li>
+									<li>
+										<div class="icon-box">
+											<i class="icon-telephone-with-fax"></i>
+										</div>
+										<!-- /.icon-box -->
+										<div class="text-box">
+											<p>+91 - 00000 - 222222</p>
+										</div>
+										<!-- /.text-box -->
+									</li>
+									<li>
+										<div class="icon-box">
+											<i class="icon-circular-wall-clock-for-livingroom"></i>
+										</div>
+										<!-- /.icon-box -->
+										<div class="text-box">
+											<p>Mon-Fri, 9AM until 6PM</p>
+										</div>
+										<!-- /.text-box -->
+									</li>
+								</ul>
+								<!-- /.contact-infos -->
+							</div>
+							<!-- /.item -->
+
+						</div>
+						<!-- /.contact-info-carousel owl-theme owl-carousel -->
+
+					</div>
+					<!-- /.footer-widget link-widget -->
+				</div>
+				<!-- /.col-md-3 -->
+				<div class="col-md-3">
+					<div class="footer-widget link-widget">
+						<div class="inner-title">
+							<h3><span class="white-color-text">Departments</span></h3>
+							<span class="decor-line"></span>
+						</div>
+						<!-- /.sec-title-two -->
+						<ul class="links">
+							<li><a href="mca.html">MCA</a></li>
+							<li><a href="mba.html">MBA</a></li>
+							<li><a href="mcom.html">MCOM</a></li>
+							<li><a href="msc.html">MSC</a></li>
+						</ul>
+						<!-- /.links -->
+					</div>
+					<!-- /.footer-widget link-widget -->
+				</div>
+				<!-- /.col-md-3 -->
+				<div class="col-md-3">
+					<div class="footer-widget subscribe-widget">
+						<div class="inner-title">
+							<h3>Subscribe us</h3>
+							<span class="decor-line"></span>
+						</div>
+						<!-- /.sec-title-two -->
+						<p class="highlight">Sign up today for our latest news.</p>
+						<form action="#" class="clearfix mailchimp-form">
+							<input type="text" name="email" placeholder="Email address" />
+							<button type="submit"><i class="fa fa-envelope-o"></i></button>
+						</form>
+						<p class="highlight">We dont’t do spam and Your mail id very confidential.</p>
+					</div>
+					<!-- /.footer-widget link-widget -->
+				</div>
+				<!-- /.col-md-3 -->
+
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</footer>
+	<!-- End Footer top -->
+
+	<!-- Start footer bottom -->
+	<section class="footer-bottom">
+		<div class="container">
+			<div class="pull-left get-text">
+				<ul>
+					<li><a href="contact-us.html">Contact Us</a></li>
+					<li><a href="event.html">Gallery</a></li>
+
+				</ul>
+			</div>
+			<!-- /.pull-right -->
+			<div class="pull-right copy-text">
+				<p>Copyright 2017 <a href="#">SVU College of CM &amp; CS, All Right Reserved</a>
+				</p>
+			</div>
+			<!-- /.pull-left -->
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- footer-bottom -->
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="icon flaticon-arrows"></span>
+	</div>
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script> -->
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+	<!-- <script src="/src/assets/assets/owl.carousel-2/owl.carousel.min.js"></script>
+	
+	<script src="/src/assets/assets/wow.js"></script>
+	<script src="/src/assets/assets/jquery.mixitup.min.js"></script>
+	<script src="/src/assets/assets/jquery.fitvids.js"></script>
+	<script src="/src/assets/assets/bootstrap-select.min.js"></script>
+
+	<!-- revolution slider js -->
+	<!-- <script src="/src/assets/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="/src/assets/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+	<!-- fancy box -->
+	<!-- <script src="/src/assets/assets/fancyapps-fancyBox/source/jquery.fancybox.pack.js"></script>
+	<script src="/src/assets/assets/Polyglot-Language-Switcher-master/js/jquery.polyglot.language.switcher.js"></script>
+	<script src="/src/assets/assets/nouislider/nouislider.js"></script>
+	<script src="/src/assets/assets/bootstrap-touch-spin/jquery.bootstrap-touchspin.js"></script>
+	<script src="/src/assets/src/assets/assets/SmoothScroll.js"></script>
+
+	<script src="/src/assets/assets/jquery-appear/jquery.appear.js"></script>
+	<script src="/src/assets/assets/jquery.countTo.js"></script>/
+
+	<script type="text/javascript" src="/src/assets/assets/counter/jquery.countimator.js"></script>
+	<script type="text/javascript" src="/src/assets/assets/counter/jquery.countimator.wheel.js"></script> -->
+
+	<!-- theme custom js  -->
+	<!-- <script id="map-script" src="/src/assets/js/default-map.js"></script>
+	<script src="/src/assets/js/custom.js"></script>
+
+	<script type="text/javascript">
+		$(".counter").countimator();
+	</script> --> 
+
+	</div>
+
+</body>
+
+</html>
