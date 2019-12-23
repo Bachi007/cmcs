@@ -27,9 +27,18 @@ export class LoginComponent implements OnInit {
       this.result = res['data']
       if (this.result != null) {
         localStorage.setItem('isLoggedIn', JSON.stringify(res['data']));
-        swal("","Successfully LoggedIn","success")
+        if(res['data'].role=="admin"){
+          swal("","Successfully LoggedIn","success")
+          this.router.navigateByUrl('/admindashboard')
+        }
+        else if(res['data'].role=="faculty")
+        {
+          swal("","Successfully LoggedIn","success")
+          this.router.navigateByUrl('/faculty')
+        }
+        else {
         this.router.navigateByUrl('/home')
-      }
+      }}
       else {
         this.errorMessage = res['Status']
       }

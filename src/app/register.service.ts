@@ -18,5 +18,9 @@ check(candidate){
     map(Response=>Response));
   
 }
+
+students(dept){
+  return this.http.post('http://localhost:3000/students',dept);
+}
 }
 

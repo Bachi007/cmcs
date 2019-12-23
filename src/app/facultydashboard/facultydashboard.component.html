@@ -1,0 +1,85 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<div id="navbar-wrapper">
+  <header>
+      <nav class="navbar navbar-default navbar-fixed-top bg-dark" role="navigation">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+             
+           </div>
+              <div id="navbar-collapse" class="collapse navbar-collapse">
+                  <a class="navbar-brand" href="#">Faculty</a>
+                  <ul class="nav navbar-nav navbar-right">
+                     
+                      <li class="dropdown">
+                          <a id="user-profile" href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="https://static.thenounproject.com/png/2769832-200.png" class="img-responsive img-thumbnail img-circle"> Username</a>
+                          <ul class="dropdown-menu dropdown-block" role="menu">
+                              <li><a href="#">Profil edition</a></li>
+                              <li><a href="#">Admin</a></li>
+                              <li><a href="#">Logout</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+</div>
+<div id="wrapper">
+  <div id="sidebar-wrapper">
+      <aside id="sidebar">
+          <ul id="sidemenu" class="sidebar-nav">
+              <li>
+                  <a href="#">
+                      <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                      <span class="sidebar-title">Home</span>
+                  </a>
+              </li>
+              <li>
+                  <a class="accordion-toggle toggle-switch" data-toggle="collapse" href="#submenu-2">
+                      <span class="sidebar-icon"><i class="fa fa-users"></i></span>
+                      <span class="sidebar-title">Management</span>
+                      <b class="caret"></b>
+                  </a>
+                  <!-- <ul id="submenu-2" class="panel-collapse collapse panel-switch bg-dark"  role="menu">
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Users</a></li>
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Roles</a></li>
+                  </ul>
+              </li> -->
+              <li>
+                  <a class="accordion-toggle collapsed toggle-switch" data-toggle="collapse" href="#submenu-3">
+                      <span class="sidebar-icon"><i class="fa fa-newspaper-o"></i></span>
+                      <span class="sidebar-title">Blog</span>
+                      <b class="caret"></b>
+                  </a>
+                  <!-- <ul id="submenu-3" class="panel-collapse collapse panel-switch" role="menu">
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Posts</a></li>
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Comments</a></li>
+                  </ul> -->
+              </li>
+              <li>
+                  <a href="#">
+                      <span class="sidebar-icon"><i class="fa fa-database"></i></span>
+                      <span class="sidebar-title">Data</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <span class="sidebar-icon"><i class="fa fa-terminal"></i></span>
+                      <span class="sidebar-title">Console</span>
+                  </a>
+              </li>
+          </ul>
+      </aside>            
+  </div>
+  <main id="page-content-wrapper" role="main">
+  </main>
+</div> 

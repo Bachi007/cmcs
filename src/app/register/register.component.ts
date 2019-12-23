@@ -20,6 +20,7 @@ register(){
   "mobile":this.mobile,
   "password":this.password,
   "passwordConf":this.passwordConf,
+  "role":"student"
  
   }
   this.user.user(user).subscribe(result=>{

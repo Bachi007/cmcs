@@ -10,7 +10,7 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
-mongoose.connect('mongodb+srv://hb:2505@cluster0-hzdje.mongodb.net/test?retryWrites=true&w=majority',{ useNewUrlParser: true });
+mongoose.connect('mongodb+srv://Bachi:2505@cluster0-aaxsq.mongodb.net/test?retryWrites=true&w=majority',{ useNewUrlParser: true });
 
 var db = mongoose.connection;
 

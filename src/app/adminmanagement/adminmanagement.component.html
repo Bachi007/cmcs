@@ -1,0 +1,112 @@
+<div id="navbar-wrapper">
+  <header>
+      <nav class="navbar navbar-default navbar-fixed-top bg-dark" role="navigation">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+             
+           </div>
+              <div id="navbar-collapse" class="collapse navbar-collapse">
+                  <a class="navbar-brand" href="#">Admin</a>
+                  <ul class="nav navbar-nav navbar-right">
+                     
+                      <li class="dropdown">
+                          <a id="user-profile" href="#" class="dropdown -toggle" data-toggle="dropdown"><img src="https://static.thenounproject.com/png/2769832-200.png" class="img-responsive img-thumbnail img-circle"> {{Username}}</a>
+                          <ul class="dropdown-menu dropdown-block" role="menu">
+                              <li><a href="#">Profil edition</a></li>
+                              <li><a href="#">Admin</a></li>
+                              <li><a (click)="logout()">Logout</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+</div>
+<div id="wrapper">
+  <div id="sidebar-wrapper">
+      <aside id="sidebar" >
+          <ul id="sidemenu" class="sidebar-nav" style="margin-top: 20px;">
+              <li>
+                  <a href="#">
+                      <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                      <span class="sidebar-title">Dashboard</span>
+                      <b class="fa fa-caret-right" style="margin-left: 70px;"></b>
+                  </a>
+              </li>
+              <li>
+                  <a class="accordion-toggle toggle-switch" data-toggle="collapse" routerLink="/addpeople">
+                      <span class="sidebar-icon"><i class="fa fa-users"></i></span>
+                      <span class="sidebar-title">Management</span>
+                      <b class="caret"></b>
+                  </a>
+                  <!-- <ul id="submenu-2" class="panel-collapse collapse panel-switch bg-dark"  role="menu">
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Users</a></li>
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Roles</a></li>
+                  </ul>
+              </li> -->
+              <li>
+                  <a class="accordion-toggle collapsed toggle-switch" data-toggle="collapse" href="#submenu-3">
+                      <span class="sidebar-icon"><i class="fa fa-newspaper-o"></i></span>
+                      <span class="sidebar-title">News</span>
+                      <b class="caret"></b>
+                  </a>
+                  <!-- <ul id="submenu-3" class="panel-collapse collapse panel-switch" role="menu">
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Posts</a></li>
+                      <li><a href="#"><i class="fa fa-caret-right"></i>Comments</a></li>
+                  </ul> -->
+              </li>
+              <li>
+                  <a href="#">
+                      <span class="sidebar-icon"><i class="fa fa-database"></i></span>
+                      <span class="sidebar-title">View Data</span>
+                      <b class="caret"></b>
+                  </a>
+              </li>
+             
+          </ul>
+      </aside>            
+  </div>
+  <main id="page-content-wrapper" role="main">
+  </main>
+</div> 
+<div class="container" style="margin-left: 230px;margin-top: 50px;">
+  <div class="row">
+  <div class="col-md-3">
+    <div class="card-counter primary">
+      <i class="fa fa-code-fork"></i>
+      <span class="count-numbers">4</span>
+      <span class="count-name">Deparments</span>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card-counter danger">
+      <i class="fa fa-ticket"></i>
+      <span class="count-numbers">120</span>
+      <span class="count-name">Faculty</span>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card-counter success">
+      <i class="fa fa-database"></i>
+      <span class="count-numbers">600</span>
+      <span class="count-name">Students</span>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card-counter info">
+      <i class="fa fa-users"></i>
+      <span class="count-numbers">6</span>
+      <span class="count-name">Admins</span>
+    </div>
+  </div>
+</div>

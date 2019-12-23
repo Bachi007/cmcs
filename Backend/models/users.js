@@ -3,17 +3,15 @@ var Schema = mongoose.Schema;
 
 userSchema = new Schema( {
    
-    name:String,
+    name: String,
     email: String,
-    mobile: String,
-    password:String,
-    passwordConf:String,
-
+    mobile:String,
+    password: String,
+    passwordConf: String,
+    role: String,
 
 }),
 
-User = mongoose.model('User', userSchema);
-
-
+User = mongoose.model('Users', userSchema);
 
 module.exports = User;
